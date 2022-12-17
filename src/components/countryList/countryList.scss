@@ -1,0 +1,22 @@
+.country-list {
+  padding: 1rem;
+  flex: 0 0 20%;
+  max-width: 360px;
+  background-color: var(--color-secondary);
+  height: 100vh;
+  overflow: auto;
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0.4em 0 0 0;
+    svg {
+      height: 1rem;
+      margin-right: 0.5rem;
+      vertical-align: middle;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
