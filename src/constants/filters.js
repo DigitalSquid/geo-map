@@ -2,11 +2,13 @@ export const filters = {
   officialCoverage: {
     title: 'Official Coverage',
     selected: 'yes',
+    style: 'toggle',
     options: ['yes', 'no'],
   },
   drivingSide: {
     title: 'Driving Side',
     selected: '',
+    style: 'toggle',
     options: ['right', 'left'],
   },
   roadLines: {

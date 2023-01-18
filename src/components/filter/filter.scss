@@ -19,10 +19,10 @@
 }
 
 .filters {
-  flex: 0 0 40%;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid white;
+  flex: 1 0 100%;
+  justify-content: flex-end;
 }
 
 .filter {
@@ -39,7 +39,24 @@
   }
 }
 
+.options .filter {
+  label {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-tertiary);
+    margin-left: 0.5rem;
+  }
+  input:checked + label {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
+}
+
 .toggle {
+  .filters {
+    flex: 0 0 40%;
+    border: 1px solid white;
+  }
   .filter {
     flex: 0 0 50%;
     &:first-of-type label {
@@ -79,77 +96,79 @@
       padding-left: 0;
     }
   }
-  .roadlines {
+
+  input:checked + label {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(238, 255, 0);
+  }
+}
+
+.roadlines {
+  background: var(--color-roadline-tarmac)
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0 4px,
+      var(--color-roadline-white) 4px 11px
+    )
+    50%/5px 100% no-repeat;
+  position: relative;
+  &::before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-color: var(--color-roadline-white);
+    border-style: solid;
+    border-width: 0 5px;
+    left: 0;
+  }
+  &.white-yellow::before,
+  &.yellow-yellow::before {
+    border-color: var(--color-roadline-yellow);
+  }
+  &.yellow-yellow {
+    background: var(--color-roadline-tarmac)
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0 4px,
+        var(--color-roadline-yellow) 4px 11px
+      )
+      50%/5px 100% no-repeat;
+  }
+  &.yellow-white {
+    background: var(--color-roadline-tarmac)
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0 4px,
+        var(--color-roadline-yellow) 4px 11px
+      )
+      51%/5px 100% no-repeat;
+  }
+  &.yellow_white-white {
     background: var(--color-roadline-tarmac)
       repeating-linear-gradient(
         to bottom,
         transparent 0 4px,
         var(--color-roadline-white) 4px 11px
       )
-      50%/5px 100% no-repeat;
-    position: relative;
-    &::before {
+      42%/5px 100% no-repeat;
+    &::after {
       display: block;
       content: '';
-      width: 100%;
       height: 100%;
+      width: 5px;
+      background: var(--color-roadline-tarmac)
+        repeating-linear-gradient(
+          to bottom,
+          transparent 0 4px,
+          var(--color-roadline-yellow) 4px 11px
+        )
+        45%/5px 100% no-repeat;
       position: absolute;
-      border-color: var(--color-roadline-white);
-      border-style: solid;
-      border-width: 0 5px;
-      left: 0;
+      top: 0;
+      left: calc(51%);
     }
-    &.white-yellow::before,
-    &.yellow-yellow::before {
-      border-color: var(--color-roadline-yellow);
-    }
-    &.yellow-yellow {
-      background: var(--color-roadline-tarmac)
-        repeating-linear-gradient(
-          to bottom,
-          transparent 0 4px,
-          var(--color-roadline-yellow) 4px 11px
-        )
-        50%/5px 100% no-repeat;
-    }
-    &.yellow-white {
-      background: var(--color-roadline-tarmac)
-        repeating-linear-gradient(
-          to bottom,
-          transparent 0 4px,
-          var(--color-roadline-yellow) 4px 11px
-        )
-        51%/5px 100% no-repeat;
-    }
-    &.yellow_white-white {
-      background: var(--color-roadline-tarmac)
-        repeating-linear-gradient(
-          to bottom,
-          transparent 0 4px,
-          var(--color-roadline-white) 4px 11px
-        )
-        42%/5px 100% no-repeat;
-      &::after {
-        display: block;
-        content: '';
-        height: 100%;
-        width: 5px;
-        background: var(--color-roadline-tarmac)
-          repeating-linear-gradient(
-            to bottom,
-            transparent 0 4px,
-            var(--color-roadline-yellow) 4px 11px
-          )
-          45%/5px 100% no-repeat;
-        position: absolute;
-        top: 0;
-        left: calc(51%);
-      }
-    }
-  }
-  input:checked + label {
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(238, 255, 0);
   }
 }

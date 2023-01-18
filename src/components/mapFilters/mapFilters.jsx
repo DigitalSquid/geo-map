@@ -16,7 +16,7 @@ function MapFilters(props) {
             options={filter.options}
             togglePreference={props.togglePreference}
             resetPreference={props.resetPreference}
-            style={filter.style ?? 'toggle'}
+            style={filter.style ?? 'options'}
           />
         );
       })}

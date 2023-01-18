@@ -16,7 +16,7 @@ function App() {
     const newFilteredCountries = Object.entries(countryData).filter(
       (country) => {
         const countryData = country[1];
-        let matchesFilter = false;
+        let matchesFilter = [];
 
         Object.entries(selectedFilters.filters).forEach((entry) => {
           const filterName = entry[0];
@@ -38,18 +38,16 @@ function App() {
             ? Number(selectedFilterValue)
             : selectedFilterValue;
 
-          matchesFilter = Array.isArray(countryFilterData)
-            ? countryFilterData.includes(selectedFilterValue)
-            : countryFilterData === selectedFilterValue;
+          matchesFilter.push(
+            Array.isArray(countryFilterData)
+              ? countryFilterData.includes(selectedFilterValue)
+              : countryFilterData === selectedFilterValue
+          );
         });
 
-        return matchesFilter;
+        return !matchesFilter.includes(false);
       }
     );
-    // .reduce((newCountryData, country) => {
-    //   newCountryData[country[0]] = countryData[country[0]];
-    //   return newCountryData;
-    // }, {});
     setFilteredCountries(newFilteredCountries);
   }
 
