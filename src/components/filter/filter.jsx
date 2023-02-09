@@ -23,7 +23,7 @@ export function Filter(props) {
                 value={option}
                 onChange={handleChange}
                 onClick={handleClick}
-                checked={props.selected == option}
+                checked={props.selected === option.toString()}
               />
               <label
                 className={`${props.filterName.toLowerCase()} ${option}`}

@@ -1,17 +1,7 @@
 .map-container {
   flex: 1 0 60%;
-  // height: 100vh;
   overflow: hidden;
   background-color: rgb(125, 165, 230);
-  // .rsm-geography {
-  // fill: rgba(150, 221, 105, 1);
-  // stroke: rgba(87, 160, 42, 0.72);
-  // stroke-width: 0.5px;
-  // pointer-events: auto;
-  // &.inactive {
-  //   fill: rgba(230, 191, 120, 0.75);
-  // }
-  // }
 }
 
 .country-map {
@@ -35,15 +25,11 @@
   svg {
     width: 100%;
   }
-  //   pointer-events: none;
-  //   > g > rect {
-  //     pointer-events: auto;
-  //   }
-  // }
 }
 
-.equator {
-  stroke: #999;
-  stroke-width: 1;
-  stroke-dasharray: 5;
+path.equator-line {
+  stroke: rgb(255, 163, 87);
+  stroke-width: 0.5;
+  stroke-dasharray: 1;
+  fill: none;
 }

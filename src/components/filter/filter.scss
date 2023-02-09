@@ -7,7 +7,7 @@
     margin-top: 0;
   }
   .title {
-    margin: 0.275rem 0 0 0;
+    margin: 0.275rem 0;
     flex-grow: 1;
     padding: 0 1rem 0 0;
   }
@@ -76,12 +76,16 @@
 
 .icons {
   label {
+    opacity: 0.4;
     text-align: left;
     height: 3rem;
     width: 3rem;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+  }
+  input:checked + label {
+    opacity: 1;
   }
   .filters {
     border: 0;

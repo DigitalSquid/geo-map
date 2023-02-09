@@ -28,4 +28,9 @@ export const filters = {
     selected: '',
     options: [1, 2, 3, 4],
   },
+  hemisphere: {
+    title: 'Hemisphere',
+    selected: '',
+    options: ['northern', 'southern'],
+  },
 };

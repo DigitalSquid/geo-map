@@ -4,6 +4,7 @@ import {
   Geographies,
   Geography,
   ZoomableGroup,
+  Line,
 } from 'react-simple-maps';
 
 import topoJson from '../../constants/countries-50m';
@@ -33,6 +34,16 @@ const Map = (props) => {
               })
             }
           </Geographies>
+          <Line
+            className='equator-line'
+            coordinates={[
+              [-180, 0],
+              [-90, 0],
+              [0, 0],
+              [90, 0],
+              [180, 0],
+            ]}
+          />
         </ZoomableGroup>
       </ComposableMap>
     </div>

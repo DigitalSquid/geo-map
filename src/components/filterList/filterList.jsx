@@ -1,10 +1,10 @@
 import { Filter } from '../filter/filter';
 
-import './mapFilters.scss';
+import './filterList.scss';
 
-function MapFilters(props) {
+function filterList(props) {
   return (
-    <aside className='map-filters'>
+    <aside className='filter-list'>
       {Object.entries(props.selectedFilters.filters).map((entry, index) => {
         const filter = entry[1];
         return (
@@ -24,4 +24,4 @@ function MapFilters(props) {
   );
 }
 
-export default MapFilters;
+export default filterList;

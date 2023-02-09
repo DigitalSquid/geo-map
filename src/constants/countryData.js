@@ -8,6 +8,7 @@ export const countryData = {
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AE: {
@@ -19,6 +20,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'northern',
     },
   },
   AF: {
@@ -30,6 +32,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AG: {
@@ -41,6 +44,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AI: {
@@ -52,6 +56,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AL: {
@@ -63,6 +68,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: 'northern',
     },
   },
   AM: {
@@ -74,6 +80,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AO: {
@@ -85,6 +92,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   AQ: {
@@ -96,6 +104,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   AR: {
@@ -107,6 +116,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow', 'yellow_white-white'],
+      hemisphere: 'southern',
     },
   },
   AS: {
@@ -118,6 +128,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'southern',
     },
   },
   AT: {
@@ -129,6 +140,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AU: {
@@ -140,6 +152,7 @@ export const countryData = {
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-yellow'],
+      hemisphere: 'southern',
     },
   },
   AW: {
@@ -151,6 +164,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AX: {
@@ -162,6 +176,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   AZ: {
@@ -173,6 +188,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BA: {
@@ -184,6 +200,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BB: {
@@ -195,6 +212,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BD: {
@@ -206,6 +224,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BE: {
@@ -217,6 +236,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BF: {
@@ -228,6 +248,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BG: {
@@ -239,6 +260,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BH: {
@@ -250,6 +272,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BI: {
@@ -261,6 +284,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   BJ: {
@@ -272,6 +296,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BL: {
@@ -283,6 +308,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BM: {
@@ -294,6 +320,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BN: {
@@ -305,6 +332,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BO: {
@@ -316,6 +344,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: 'southern',
     },
   },
   BQ: {
@@ -327,6 +356,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BR: {
@@ -338,6 +368,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   BS: {
@@ -349,6 +380,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BT: {
@@ -360,6 +392,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BV: {
@@ -371,6 +404,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   BW: {
@@ -382,6 +416,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'southern',
     },
   },
   BY: {
@@ -393,6 +428,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   BZ: {
@@ -404,6 +440,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CA: {
@@ -415,6 +452,7 @@ export const countryData = {
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   CC: {
@@ -426,6 +464,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CD: {
@@ -437,6 +476,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   CF: {
@@ -448,6 +488,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CG: {
@@ -459,6 +500,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   CH: {
@@ -470,6 +512,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CI: {
@@ -481,6 +524,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CK: {
@@ -492,6 +536,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   CL: {
@@ -503,6 +548,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: 'southern',
     },
   },
   CM: {
@@ -514,6 +560,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CN: {
@@ -525,6 +572,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CO: {
@@ -536,6 +584,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   CR: {
@@ -547,6 +596,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CU: {
@@ -558,6 +608,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CV: {
@@ -569,6 +620,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CW: {
@@ -580,6 +632,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CX: {
@@ -591,6 +644,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   CY: {
@@ -602,6 +656,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   CZ: {
@@ -613,6 +668,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   DE: {
@@ -624,6 +680,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   DJ: {
@@ -635,6 +692,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   DK: {
@@ -646,6 +704,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   DM: {
@@ -657,6 +716,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   DO: {
@@ -668,6 +728,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   DZ: {
@@ -679,6 +740,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   EC: {
@@ -690,6 +752,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   EE: {
@@ -701,6 +764,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   EG: {
@@ -712,6 +776,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   EH: {
@@ -723,6 +788,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   ER: {
@@ -734,6 +800,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   ES: {
@@ -745,6 +812,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   ET: {
@@ -756,6 +824,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   FI: {
@@ -767,6 +836,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: 'northern',
     },
   },
   FJ: {
@@ -778,6 +848,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   FK: {
@@ -789,6 +860,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   FM: {
@@ -800,6 +872,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   FO: {
@@ -811,6 +884,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   FR: {
@@ -822,6 +896,7 @@ export const countryData = {
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GA: {
@@ -833,6 +908,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   GB: {
@@ -844,6 +920,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
+      hemisphere: 'northern',
     },
   },
   GD: {
@@ -855,6 +932,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GE: {
@@ -866,6 +944,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GF: {
@@ -877,6 +956,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GG: {
@@ -888,6 +968,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GH: {
@@ -899,6 +980,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GI: {
@@ -910,6 +992,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
+      hemisphere: 'northern',
     },
   },
   GL: {
@@ -921,10 +1004,11 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GM: {
-    name: 'Gambia',
+    name: 'The Gambia',
     iso: 'GM',
     id: '270',
     attributes: {
@@ -932,6 +1016,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GN: {
@@ -943,6 +1028,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GP: {
@@ -954,6 +1040,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GQ: {
@@ -965,6 +1052,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   GR: {
@@ -976,6 +1064,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GS: {
@@ -987,6 +1076,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   GT: {
@@ -998,6 +1088,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   GU: {
@@ -1009,6 +1100,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'no',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   GW: {
@@ -1020,6 +1112,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   GY: {
@@ -1031,6 +1124,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   HK: {
@@ -1042,6 +1136,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   HM: {
@@ -1053,6 +1148,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   HN: {
@@ -1064,6 +1160,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   HR: {
@@ -1075,6 +1172,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   HT: {
@@ -1086,6 +1184,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   HU: {
@@ -1097,6 +1196,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   ID: {
@@ -1108,6 +1208,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: ['northern', 'southern'],
     },
   },
   IE: {
@@ -1119,6 +1220,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'northern',
     },
   },
   IL: {
@@ -1130,6 +1232,7 @@ export const countryData = {
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'northern',
     },
   },
   IM: {
@@ -1141,6 +1244,7 @@ export const countryData = {
       cameraGen: 2,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
+      hemisphere: 'northern',
     },
   },
   IN: {
@@ -1152,6 +1256,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   IO: {
@@ -1163,6 +1268,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   IQ: {
@@ -1174,6 +1280,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   IR: {
@@ -1185,6 +1292,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   IS: {
@@ -1196,6 +1304,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   IT: {
@@ -1207,6 +1316,7 @@ export const countryData = {
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   JE: {
@@ -1218,6 +1328,7 @@ export const countryData = {
       cameraGen: 2,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'northern',
     },
   },
   JM: {
@@ -1229,6 +1340,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   JO: {
@@ -1240,6 +1352,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'northern',
     },
   },
   JP: {
@@ -1251,6 +1364,7 @@ export const countryData = {
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KE: {
@@ -1262,6 +1376,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   KG: {
@@ -1273,6 +1388,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KH: {
@@ -1284,6 +1400,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   KI: {
@@ -1295,6 +1412,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KM: {
@@ -1306,6 +1424,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KN: {
@@ -1317,6 +1436,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KP: {
@@ -1328,6 +1448,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KR: {
@@ -1339,6 +1460,7 @@ export const countryData = {
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   KW: {
@@ -1350,6 +1472,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KY: {
@@ -1361,6 +1484,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   KZ: {
@@ -1372,6 +1496,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LA: {
@@ -1383,6 +1508,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LB: {
@@ -1394,6 +1520,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LC: {
@@ -1405,6 +1532,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LI: {
@@ -1416,6 +1544,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LK: {
@@ -1427,6 +1556,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LR: {
@@ -1438,6 +1568,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LS: {
@@ -1449,6 +1580,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'southern',
     },
   },
   LT: {
@@ -1460,6 +1592,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LU: {
@@ -1471,6 +1604,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LV: {
@@ -1482,6 +1616,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   LY: {
@@ -1493,6 +1628,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MA: {
@@ -1504,6 +1640,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MC: {
@@ -1515,6 +1652,7 @@ export const countryData = {
       cameraGen: [1, 2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MD: {
@@ -1526,6 +1664,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   ME: {
@@ -1537,6 +1676,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MF: {
@@ -1548,6 +1688,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MG: {
@@ -1559,6 +1700,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   MH: {
@@ -1570,6 +1712,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MK: {
@@ -1581,6 +1724,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-yellow'],
+      hemisphere: 'northern',
     },
   },
   ML: {
@@ -1592,6 +1736,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MM: {
@@ -1603,6 +1748,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MN: {
@@ -1614,6 +1760,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MO: {
@@ -1625,6 +1772,7 @@ export const countryData = {
       cameraGen: 2,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MP: {
@@ -1636,6 +1784,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   MQ: {
@@ -1647,6 +1796,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MR: {
@@ -1658,6 +1808,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MS: {
@@ -1669,6 +1820,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MT: {
@@ -1680,6 +1832,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MU: {
@@ -1691,6 +1844,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   MV: {
@@ -1702,6 +1856,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   MW: {
@@ -1713,6 +1868,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   MX: {
@@ -1724,6 +1880,7 @@ export const countryData = {
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   MY: {
@@ -1735,6 +1892,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   MZ: {
@@ -1746,6 +1904,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   NA: {
@@ -1757,6 +1916,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   NC: {
@@ -1768,6 +1928,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   NE: {
@@ -1779,6 +1940,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   NF: {
@@ -1790,6 +1952,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   NG: {
@@ -1801,6 +1964,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'northern',
     },
   },
   NI: {
@@ -1812,6 +1976,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   NL: {
@@ -1823,6 +1988,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   NO: {
@@ -1834,6 +2000,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   NP: {
@@ -1845,6 +2012,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   NR: {
@@ -1856,6 +2024,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   NU: {
@@ -1867,6 +2036,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   NZ: {
@@ -1884,6 +2054,7 @@ export const countryData = {
         'yellow-yellow',
         'yellow_white-white',
       ],
+      hemisphere: 'southern',
     },
   },
   OM: {
@@ -1895,6 +2066,7 @@ export const countryData = {
       officialCoverage: 'no',
       cameraGen: null,
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PA: {
@@ -1906,6 +2078,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PE: {
@@ -1917,6 +2090,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: 'southern',
     },
   },
   PF: {
@@ -1928,6 +2102,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   PG: {
@@ -1939,6 +2114,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   PH: {
@@ -1950,6 +2126,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white', 'yellow_white-white'],
+      hemisphere: 'northern',
     },
   },
   PK: {
@@ -1961,6 +2138,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PL: {
@@ -1972,6 +2150,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PM: {
@@ -1983,6 +2162,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PN: {
@@ -1994,6 +2174,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   PR: {
@@ -2005,6 +2186,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   PS: {
@@ -2016,6 +2198,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PT: {
@@ -2027,6 +2210,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PW: {
@@ -2038,6 +2222,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   PY: {
@@ -2049,6 +2234,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   QA: {
@@ -2060,6 +2246,7 @@ export const countryData = {
       cameraGen: 4,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   RE: {
@@ -2071,6 +2258,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   RO: {
@@ -2082,6 +2270,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   RS: {
@@ -2093,6 +2282,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   RU: {
@@ -2104,6 +2294,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   RW: {
@@ -2115,6 +2306,7 @@ export const countryData = {
       cameraGen: 4,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   SA: {
@@ -2126,6 +2318,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SB: {
@@ -2137,6 +2330,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   SC: {
@@ -2148,6 +2342,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   SD: {
@@ -2159,6 +2354,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SE: {
@@ -2170,6 +2366,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SG: {
@@ -2181,6 +2378,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
+      hemisphere: 'northern',
     },
   },
   SH: {
@@ -2192,6 +2390,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   SI: {
@@ -2203,6 +2402,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SJ: {
@@ -2214,6 +2414,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SK: {
@@ -2225,6 +2426,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SL: {
@@ -2236,6 +2438,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SM: {
@@ -2247,6 +2450,7 @@ export const countryData = {
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SN: {
@@ -2258,6 +2462,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SO: {
@@ -2269,6 +2474,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: ['northern', 'southern'],
     },
   },
   SR: {
@@ -2280,6 +2486,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SS: {
@@ -2291,6 +2498,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   ST: {
@@ -2302,6 +2510,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SV: {
@@ -2313,6 +2522,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SX: {
@@ -2324,6 +2534,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SY: {
@@ -2335,6 +2546,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   SZ: {
@@ -2346,6 +2558,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'southern',
     },
   },
   TC: {
@@ -2357,6 +2570,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TD: {
@@ -2368,6 +2582,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TF: {
@@ -2379,6 +2594,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   TG: {
@@ -2390,6 +2606,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TH: {
@@ -2401,6 +2618,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   TJ: {
@@ -2412,6 +2630,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TK: {
@@ -2423,6 +2642,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   TL: {
@@ -2434,6 +2654,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   TM: {
@@ -2445,6 +2666,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TN: {
@@ -2456,6 +2678,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TO: {
@@ -2467,6 +2690,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   TR: {
@@ -2478,6 +2702,7 @@ export const countryData = {
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TT: {
@@ -2489,6 +2714,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   TV: {
@@ -2500,6 +2726,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   TW: {
@@ -2511,6 +2738,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   TZ: {
@@ -2522,6 +2750,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   UA: {
@@ -2533,6 +2762,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   UG: {
@@ -2544,6 +2774,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: ['northern', 'southern'],
     },
   },
   UM: {
@@ -2555,6 +2786,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   US: {
@@ -2566,6 +2798,7 @@ export const countryData = {
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
+      hemisphere: 'northern',
     },
   },
   UY: {
@@ -2577,6 +2810,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   UZ: {
@@ -2588,6 +2822,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   VA: {
@@ -2599,6 +2834,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   VC: {
@@ -2610,6 +2846,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   VE: {
@@ -2621,6 +2858,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   VG: {
@@ -2632,6 +2870,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   VI: {
@@ -2643,6 +2882,7 @@ export const countryData = {
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow_white-white',
+      hemisphere: 'northern',
     },
   },
   VN: {
@@ -2654,6 +2894,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
+      hemisphere: 'northern',
     },
   },
   VU: {
@@ -2665,6 +2906,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   WF: {
@@ -2676,6 +2918,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   WS: {
@@ -2687,6 +2930,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
 
@@ -2699,6 +2943,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'northern',
     },
   },
   YT: {
@@ -2710,6 +2955,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   ZA: {
@@ -2721,6 +2967,7 @@ export const countryData = {
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
+      hemisphere: 'southern',
     },
   },
   ZM: {
@@ -2732,6 +2979,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
   ZW: {
@@ -2743,6 +2991,7 @@ export const countryData = {
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
+      hemisphere: 'southern',
     },
   },
 };

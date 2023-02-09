@@ -3,8 +3,10 @@ import { filters } from './constants/filters';
 import { countryData } from './constants/countryData';
 
 import Map from './components/map/map';
-import MapFilters from './components/mapFilters/mapFilters';
+import FilterList from './components/filterList/filterList';
 import CountryList from './components/countryList/countryList';
+
+// import Functions from './functions';
 
 import './App.css';
 
@@ -71,14 +73,14 @@ function App() {
 
   useEffect(() => {
     filterCountries(selectedFilters);
-  }, []);
+  }, [selectedFilters]);
 
   return (
     <div className='App'>
       <main>
         <div className='sidebar'>
-          <header className='App-header'>Geo Map</header>
-          <MapFilters
+          <header className='App-header'>Geo Meta Map</header>
+          <FilterList
             selectedFilters={selectedFilters}
             togglePreference={togglePreference}
             resetPreference={resetPreference}
