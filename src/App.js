@@ -10,6 +10,8 @@ import CountryList from './components/countryList/countryList';
 
 import './App.css';
 
+/// Could be better than useState - https://react.dev/reference/react/useReducer
+
 function App() {
   const [selectedFilters, setSelectedFilters] = useState({ filters });
   const [filteredCountries, setFilteredCountries] = useState([]);
@@ -71,6 +73,20 @@ function App() {
     filterCountries(newFilters);
   }
 
+  function resetFilters() {
+    const newFilters = { ...selectedFilters };
+
+    Object.entries(newFilters.filters).forEach((entry) => {
+      const filterData = entry[1];
+      if (filterData.selected !== '') {
+        filterData.selected = '';
+      }
+    });
+
+    setSelectedFilters(newFilters);
+    filterCountries(newFilters);
+  }
+
   useEffect(() => {
     filterCountries(selectedFilters);
   }, [selectedFilters]);
@@ -85,6 +101,9 @@ function App() {
             togglePreference={togglePreference}
             resetPreference={resetPreference}
           />
+          <div className='sidebar-end'>
+            <button onClick={resetFilters}>Reset filters</button>
+          </div>
         </div>
 
         <Map filteredCountries={filteredCountries} />

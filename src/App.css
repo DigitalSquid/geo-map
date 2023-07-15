@@ -40,5 +40,19 @@ main {
   max-width: 360px;
   border-top: 1px solid var(--color-tertiary);
   background-color: var(--color-secondary);
+  position: relative;
   /* order: 1; */
+}
+
+.sidebar-end {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  border-top: 1px solid var(--color-tertiary);
+  width: 100%;
+  text-align: right;
+}
+
+.sidebar-end button {
+  padding: 0.25rem 1rem;
 }
