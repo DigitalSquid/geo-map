@@ -14,8 +14,15 @@ function CountryList(props) {
       <ul>
         {props.filteredCountries.map((country, index) => {
           const Flag = Flags[country[0]];
+          const countryId = country[1].id;
+          const isSelected =
+            props.highlightedCountryId === countryId ? 'is-selected' : '';
           return (
-            <li key={index} onClick={() => handleClick(country[1].id)}>
+            <li
+              className={isSelected}
+              key={index}
+              onClick={() => handleClick(countryId)}
+            >
               <Flag />
               {country[1].name}
             </li>

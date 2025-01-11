@@ -6,11 +6,7 @@ import Map from './components/map/map';
 import FilterList from './components/filterList/filterList';
 import CountryList from './components/countryList/countryList';
 
-// import Functions from './functions';
-
 import './App.css';
-
-/// Could be better than useState - https://react.dev/reference/react/useReducer
 
 function App() {
   const [selectedFilters, setSelectedFilters] = useState({ filters });
@@ -89,7 +85,9 @@ function App() {
   }
 
   function highlightCountry(countryId) {
-    setHighlightedCountryId(countryId);
+    setHighlightedCountryId(
+      countryId === highlightedCountryId ? null : countryId
+    );
   }
 
   useEffect(() => {
@@ -118,6 +116,7 @@ function App() {
         <CountryList
           filteredCountries={filteredCountries}
           highlightCountry={highlightCountry}
+          highlightedCountryId={highlightedCountryId}
         />
       </main>
     </div>

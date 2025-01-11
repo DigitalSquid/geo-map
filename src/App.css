@@ -4,6 +4,7 @@
 :root {
   --color-primary: #fff;
   --color-secondary: #282c34;
+  --color-secondary-dark: hsl(from var(--color-secondary) h s calc(l - 7));
   --color-tertiary: #5a5a5a;
   --color-roadline-white: rgb(236, 236, 236);
   --color-roadline-yellow: rgb(253, 218, 22);
