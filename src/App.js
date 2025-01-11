@@ -15,6 +15,7 @@ import './App.css';
 function App() {
   const [selectedFilters, setSelectedFilters] = useState({ filters });
   const [filteredCountries, setFilteredCountries] = useState([]);
+  const [highlightedCountryId, setHighlightedCountryId] = useState(null);
 
   function filterCountries(selectedFilters) {
     const newFilteredCountries = Object.entries(countryData).filter(
@@ -87,6 +88,10 @@ function App() {
     filterCountries(newFilters);
   }
 
+  function highlightCountry(countryId) {
+    setHighlightedCountryId(countryId);
+  }
+
   useEffect(() => {
     filterCountries(selectedFilters);
   }, [selectedFilters]);
@@ -106,8 +111,14 @@ function App() {
           </div>
         </div>
 
-        <Map filteredCountries={filteredCountries} />
-        <CountryList filteredCountries={filteredCountries} />
+        <Map
+          filteredCountries={filteredCountries}
+          highlightedCountryId={highlightedCountryId}
+        />
+        <CountryList
+          filteredCountries={filteredCountries}
+          highlightCountry={highlightCountry}
+        />
       </main>
     </div>
   );

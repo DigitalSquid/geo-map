@@ -11,6 +11,16 @@ export const filters = {
     style: 'toggle',
     options: ['right', 'left'],
   },
+  cameraGen: {
+    title: 'Camera Generation',
+    selected: '',
+    options: [1, 2, 3, 4],
+  },
+  hemisphere: {
+    title: 'Hemisphere',
+    selected: '',
+    options: ['north', 'south'],
+  },
   roadLines: {
     title: 'Road Lines',
     selected: '',
@@ -22,15 +32,5 @@ export const filters = {
       'yellow-white',
       'yellow_white-white',
     ],
-  },
-  cameraGen: {
-    title: 'Camera Generation',
-    selected: '',
-    options: [1, 2, 3, 4],
-  },
-  hemisphere: {
-    title: 'Hemisphere',
-    selected: '',
-    options: ['northern', 'southern'],
   },
 };

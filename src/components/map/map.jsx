@@ -23,12 +23,14 @@ const Map = (props) => {
                   (country) => country[1].id === geo.id
                 );
                 const isActive = filteredCountry ? 'active' : '';
+                const isHighlighted =
+                  props.highlightedCountryId === geo.id ? 'highlighted' : '';
 
                 return (
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    className={`country-${geo.id} ${isActive}`}
+                    className={`country-${geo.id} ${isActive} ${isHighlighted}`}
                   />
                 );
               })

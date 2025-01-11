@@ -5,10 +5,11 @@ export const countryData = {
     id: '020',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AE: {
@@ -17,10 +18,11 @@ export const countryData = {
     id: '784',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AF: {
@@ -29,10 +31,11 @@ export const countryData = {
     id: '004',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AG: {
@@ -41,10 +44,11 @@ export const countryData = {
     id: '028',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AI: {
@@ -53,10 +57,11 @@ export const countryData = {
     id: '660',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AL: {
@@ -65,10 +70,11 @@ export const countryData = {
     id: '008',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AM: {
@@ -77,10 +83,11 @@ export const countryData = {
     id: '',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AO: {
@@ -89,10 +96,11 @@ export const countryData = {
     id: '051',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   AQ: {
@@ -101,10 +109,11 @@ export const countryData = {
     id: '010',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   AR: {
@@ -113,10 +122,11 @@ export const countryData = {
     id: '032',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow', 'yellow_white-white'],
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   AS: {
@@ -125,10 +135,11 @@ export const countryData = {
     id: '016',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   AT: {
@@ -137,10 +148,11 @@ export const countryData = {
     id: '040',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AU: {
@@ -149,10 +161,11 @@ export const countryData = {
     id: '036',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-yellow'],
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   AW: {
@@ -161,10 +174,11 @@ export const countryData = {
     id: '533',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AX: {
@@ -173,10 +187,11 @@ export const countryData = {
     id: '248',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   AZ: {
@@ -185,10 +200,11 @@ export const countryData = {
     id: '031',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BA: {
@@ -197,10 +213,11 @@ export const countryData = {
     id: '070',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BB: {
@@ -209,10 +226,11 @@ export const countryData = {
     id: '052',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BD: {
@@ -221,10 +239,11 @@ export const countryData = {
     id: '050',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BE: {
@@ -233,10 +252,11 @@ export const countryData = {
     id: '056',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BF: {
@@ -245,10 +265,11 @@ export const countryData = {
     id: '854',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BG: {
@@ -257,10 +278,11 @@ export const countryData = {
     id: '100',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BH: {
@@ -269,10 +291,11 @@ export const countryData = {
     id: '048',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BI: {
@@ -281,10 +304,11 @@ export const countryData = {
     id: '108',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   BJ: {
@@ -293,10 +317,11 @@ export const countryData = {
     id: '204',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BL: {
@@ -305,10 +330,11 @@ export const countryData = {
     id: '652',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BM: {
@@ -317,10 +343,11 @@ export const countryData = {
     id: '060',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BN: {
@@ -329,10 +356,11 @@ export const countryData = {
     id: '096',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BO: {
@@ -341,10 +369,11 @@ export const countryData = {
     id: '068',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   BQ: {
@@ -353,10 +382,11 @@ export const countryData = {
     id: '535',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BR: {
@@ -365,10 +395,11 @@ export const countryData = {
     id: '076',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   BS: {
@@ -377,10 +408,11 @@ export const countryData = {
     id: '044',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BT: {
@@ -389,10 +421,11 @@ export const countryData = {
     id: '064',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BV: {
@@ -401,10 +434,11 @@ export const countryData = {
     id: '074',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   BW: {
@@ -413,10 +447,11 @@ export const countryData = {
     id: '072',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   BY: {
@@ -425,10 +460,11 @@ export const countryData = {
     id: '112',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   BZ: {
@@ -437,10 +473,11 @@ export const countryData = {
     id: '084',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CA: {
@@ -449,10 +486,11 @@ export const countryData = {
     id: '124',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CC: {
@@ -461,10 +499,11 @@ export const countryData = {
     id: '166',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CD: {
@@ -473,10 +512,11 @@ export const countryData = {
     id: '180',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   CF: {
@@ -485,10 +525,11 @@ export const countryData = {
     id: '140',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CG: {
@@ -497,10 +538,11 @@ export const countryData = {
     id: '178',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   CH: {
@@ -509,10 +551,11 @@ export const countryData = {
     id: '756',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CI: {
@@ -521,10 +564,11 @@ export const countryData = {
     id: '384',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CK: {
@@ -533,10 +577,11 @@ export const countryData = {
     id: '184',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   CL: {
@@ -545,10 +590,11 @@ export const countryData = {
     id: '152',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   CM: {
@@ -557,10 +603,11 @@ export const countryData = {
     id: '120',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CN: {
@@ -569,10 +616,11 @@ export const countryData = {
     id: '156',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CO: {
@@ -581,10 +629,11 @@ export const countryData = {
     id: '170',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   CR: {
@@ -593,10 +642,11 @@ export const countryData = {
     id: '188',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CU: {
@@ -605,10 +655,11 @@ export const countryData = {
     id: '192',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CV: {
@@ -617,10 +668,11 @@ export const countryData = {
     id: '132',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CW: {
@@ -629,10 +681,11 @@ export const countryData = {
     id: '531',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CX: {
@@ -641,10 +694,11 @@ export const countryData = {
     id: '162',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   CY: {
@@ -653,10 +707,11 @@ export const countryData = {
     id: '196',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   CZ: {
@@ -665,10 +720,11 @@ export const countryData = {
     id: '203',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   DE: {
@@ -677,10 +733,11 @@ export const countryData = {
     id: '276',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   DJ: {
@@ -689,10 +746,11 @@ export const countryData = {
     id: '262',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   DK: {
@@ -701,10 +759,11 @@ export const countryData = {
     id: '208',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   DM: {
@@ -713,10 +772,11 @@ export const countryData = {
     id: '212',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   DO: {
@@ -725,10 +785,11 @@ export const countryData = {
     id: '214',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   DZ: {
@@ -737,10 +798,11 @@ export const countryData = {
     id: '012',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   EC: {
@@ -749,10 +811,11 @@ export const countryData = {
     id: '218',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   EE: {
@@ -761,10 +824,11 @@ export const countryData = {
     id: '233',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   EG: {
@@ -773,10 +837,11 @@ export const countryData = {
     id: '818',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   EH: {
@@ -785,10 +850,11 @@ export const countryData = {
     id: '732',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   ER: {
@@ -797,10 +863,11 @@ export const countryData = {
     id: '232',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   ES: {
@@ -809,10 +876,11 @@ export const countryData = {
     id: '724',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   ET: {
@@ -821,10 +889,11 @@ export const countryData = {
     id: '231',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   FI: {
@@ -833,10 +902,11 @@ export const countryData = {
     id: '246',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   FJ: {
@@ -845,10 +915,11 @@ export const countryData = {
     id: '242',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   FK: {
@@ -857,10 +928,11 @@ export const countryData = {
     id: '238',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   FM: {
@@ -869,10 +941,11 @@ export const countryData = {
     id: '583',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   FO: {
@@ -881,10 +954,11 @@ export const countryData = {
     id: '234',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   FR: {
@@ -893,10 +967,11 @@ export const countryData = {
     id: '250',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GA: {
@@ -905,10 +980,11 @@ export const countryData = {
     id: '266',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   GB: {
@@ -917,10 +993,11 @@ export const countryData = {
     id: '826',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GD: {
@@ -929,10 +1006,11 @@ export const countryData = {
     id: '308',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GE: {
@@ -941,10 +1019,11 @@ export const countryData = {
     id: '268',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GF: {
@@ -953,10 +1032,11 @@ export const countryData = {
     id: '254',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GG: {
@@ -965,10 +1045,11 @@ export const countryData = {
     id: '831',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GH: {
@@ -977,10 +1058,11 @@ export const countryData = {
     id: '288',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GI: {
@@ -989,10 +1071,11 @@ export const countryData = {
     id: '292',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GL: {
@@ -1001,10 +1084,11 @@ export const countryData = {
     id: '304',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GM: {
@@ -1013,10 +1097,11 @@ export const countryData = {
     id: '270',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GN: {
@@ -1025,10 +1110,11 @@ export const countryData = {
     id: '324',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GP: {
@@ -1037,10 +1123,11 @@ export const countryData = {
     id: '312',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GQ: {
@@ -1049,10 +1136,11 @@ export const countryData = {
     id: '226',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   GR: {
@@ -1061,10 +1149,11 @@ export const countryData = {
     id: '300',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GS: {
@@ -1073,10 +1162,11 @@ export const countryData = {
     id: '239',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   GT: {
@@ -1085,10 +1175,11 @@ export const countryData = {
     id: '320',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GU: {
@@ -1097,10 +1188,11 @@ export const countryData = {
     id: '316',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'no',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GW: {
@@ -1109,10 +1201,11 @@ export const countryData = {
     id: '624',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   GY: {
@@ -1121,10 +1214,11 @@ export const countryData = {
     id: '328',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   HK: {
@@ -1133,10 +1227,11 @@ export const countryData = {
     id: '344',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   HM: {
@@ -1145,10 +1240,11 @@ export const countryData = {
     id: '334',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   HN: {
@@ -1157,10 +1253,11 @@ export const countryData = {
     id: '340',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   HR: {
@@ -1169,10 +1266,11 @@ export const countryData = {
     id: '191',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   HT: {
@@ -1181,10 +1279,11 @@ export const countryData = {
     id: '332',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   HU: {
@@ -1193,10 +1292,11 @@ export const countryData = {
     id: '348',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   ID: {
@@ -1205,10 +1305,11 @@ export const countryData = {
     id: '360',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   IE: {
@@ -1217,10 +1318,11 @@ export const countryData = {
     id: '372',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   IL: {
@@ -1229,10 +1331,11 @@ export const countryData = {
     id: '376',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   IM: {
@@ -1241,10 +1344,11 @@ export const countryData = {
     id: '833',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 2,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   IN: {
@@ -1253,10 +1357,11 @@ export const countryData = {
     id: '356',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   IO: {
@@ -1265,10 +1370,11 @@ export const countryData = {
     id: '086',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   IQ: {
@@ -1277,10 +1383,11 @@ export const countryData = {
     id: '368',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   IR: {
@@ -1289,10 +1396,11 @@ export const countryData = {
     id: '364',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   IS: {
@@ -1301,10 +1409,11 @@ export const countryData = {
     id: '352',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   IT: {
@@ -1313,10 +1422,11 @@ export const countryData = {
     id: '380',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   JE: {
@@ -1325,10 +1435,11 @@ export const countryData = {
     id: '832',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 2,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   JM: {
@@ -1337,10 +1448,11 @@ export const countryData = {
     id: '388',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   JO: {
@@ -1349,10 +1461,11 @@ export const countryData = {
     id: '400',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   JP: {
@@ -1361,10 +1474,11 @@ export const countryData = {
     id: '392',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KE: {
@@ -1373,10 +1487,11 @@ export const countryData = {
     id: '404',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   KG: {
@@ -1385,10 +1500,11 @@ export const countryData = {
     id: '417',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KH: {
@@ -1397,10 +1513,11 @@ export const countryData = {
     id: '116',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KI: {
@@ -1409,10 +1526,11 @@ export const countryData = {
     id: '296',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KM: {
@@ -1421,10 +1539,11 @@ export const countryData = {
     id: '174',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KN: {
@@ -1433,10 +1552,11 @@ export const countryData = {
     id: '659',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KP: {
@@ -1445,10 +1565,11 @@ export const countryData = {
     id: '408',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KR: {
@@ -1457,10 +1578,11 @@ export const countryData = {
     id: '410',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KW: {
@@ -1469,10 +1591,11 @@ export const countryData = {
     id: '414',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KY: {
@@ -1481,10 +1604,11 @@ export const countryData = {
     id: '136',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   KZ: {
@@ -1493,10 +1617,11 @@ export const countryData = {
     id: '398',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LA: {
@@ -1505,10 +1630,11 @@ export const countryData = {
     id: '418',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LB: {
@@ -1517,10 +1643,11 @@ export const countryData = {
     id: '422',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LC: {
@@ -1529,10 +1656,11 @@ export const countryData = {
     id: '662',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LI: {
@@ -1541,10 +1669,11 @@ export const countryData = {
     id: '438',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LK: {
@@ -1553,10 +1682,11 @@ export const countryData = {
     id: '144',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LR: {
@@ -1565,10 +1695,11 @@ export const countryData = {
     id: '430',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LS: {
@@ -1577,10 +1708,11 @@ export const countryData = {
     id: '426',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   LT: {
@@ -1589,10 +1721,11 @@ export const countryData = {
     id: '440',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LU: {
@@ -1601,10 +1734,11 @@ export const countryData = {
     id: '',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LV: {
@@ -1613,10 +1747,11 @@ export const countryData = {
     id: '442',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   LY: {
@@ -1625,10 +1760,11 @@ export const countryData = {
     id: '434',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MA: {
@@ -1637,10 +1773,11 @@ export const countryData = {
     id: '504',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MC: {
@@ -1649,10 +1786,11 @@ export const countryData = {
     id: '492',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [1, 2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MD: {
@@ -1661,10 +1799,11 @@ export const countryData = {
     id: '498',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   ME: {
@@ -1673,10 +1812,11 @@ export const countryData = {
     id: '499',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MF: {
@@ -1685,10 +1825,11 @@ export const countryData = {
     id: '663',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MG: {
@@ -1697,10 +1838,11 @@ export const countryData = {
     id: '450',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   MH: {
@@ -1709,10 +1851,11 @@ export const countryData = {
     id: '584',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MK: {
@@ -1721,10 +1864,11 @@ export const countryData = {
     id: '807',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-yellow'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   ML: {
@@ -1733,10 +1877,11 @@ export const countryData = {
     id: '466',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MM: {
@@ -1745,10 +1890,11 @@ export const countryData = {
     id: '104',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MN: {
@@ -1757,10 +1903,11 @@ export const countryData = {
     id: '496',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MO: {
@@ -1769,22 +1916,24 @@ export const countryData = {
     id: '446',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 2,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MP: {
-    name: 'Northern Mariana Islands',
+    name: 'North Mariana Islands',
     iso: 'MP',
     id: '580',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MQ: {
@@ -1793,10 +1942,11 @@ export const countryData = {
     id: '580',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MR: {
@@ -1805,10 +1955,11 @@ export const countryData = {
     id: '478',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MS: {
@@ -1817,10 +1968,11 @@ export const countryData = {
     id: '500',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MT: {
@@ -1829,10 +1981,11 @@ export const countryData = {
     id: '470',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MU: {
@@ -1841,10 +1994,11 @@ export const countryData = {
     id: '480',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   MV: {
@@ -1853,10 +2007,11 @@ export const countryData = {
     id: '462',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   MW: {
@@ -1865,10 +2020,11 @@ export const countryData = {
     id: '454',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   MX: {
@@ -1877,10 +2033,11 @@ export const countryData = {
     id: '484',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MY: {
@@ -1889,10 +2046,11 @@ export const countryData = {
     id: '458',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   MZ: {
@@ -1901,10 +2059,11 @@ export const countryData = {
     id: '508',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   NA: {
@@ -1913,10 +2072,11 @@ export const countryData = {
     id: '516',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   NC: {
@@ -1925,10 +2085,11 @@ export const countryData = {
     id: '540',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   NE: {
@@ -1937,10 +2098,11 @@ export const countryData = {
     id: '562',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   NF: {
@@ -1949,10 +2111,11 @@ export const countryData = {
     id: '574',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   NG: {
@@ -1961,10 +2124,11 @@ export const countryData = {
     id: '566',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   NI: {
@@ -1973,10 +2137,11 @@ export const countryData = {
     id: '558',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   NL: {
@@ -1985,10 +2150,11 @@ export const countryData = {
     id: '528',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   NO: {
@@ -1997,10 +2163,11 @@ export const countryData = {
     id: '578',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   NP: {
@@ -2009,10 +2176,11 @@ export const countryData = {
     id: '524',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   NR: {
@@ -2021,10 +2189,11 @@ export const countryData = {
     id: '520',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   NU: {
@@ -2033,10 +2202,11 @@ export const countryData = {
     id: '570',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   NZ: {
@@ -2045,6 +2215,7 @@ export const countryData = {
     id: '554',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: [
@@ -2054,7 +2225,7 @@ export const countryData = {
         'yellow-yellow',
         'yellow_white-white',
       ],
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   OM: {
@@ -2063,10 +2234,11 @@ export const countryData = {
     id: '512',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       officialCoverage: 'no',
       cameraGen: null,
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PA: {
@@ -2075,10 +2247,11 @@ export const countryData = {
     id: '591',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PE: {
@@ -2087,10 +2260,11 @@ export const countryData = {
     id: '604',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   PF: {
@@ -2099,10 +2273,11 @@ export const countryData = {
     id: '258',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   PG: {
@@ -2111,10 +2286,11 @@ export const countryData = {
     id: '324',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   PH: {
@@ -2123,10 +2299,11 @@ export const countryData = {
     id: '608',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white', 'yellow_white-white'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PK: {
@@ -2135,10 +2312,11 @@ export const countryData = {
     id: '586',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PL: {
@@ -2147,10 +2325,11 @@ export const countryData = {
     id: '616',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PM: {
@@ -2159,10 +2338,11 @@ export const countryData = {
     id: '666',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PN: {
@@ -2171,10 +2351,11 @@ export const countryData = {
     id: '612',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   PR: {
@@ -2183,10 +2364,11 @@ export const countryData = {
     id: '630',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PS: {
@@ -2195,10 +2377,11 @@ export const countryData = {
     id: '275',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PT: {
@@ -2207,10 +2390,11 @@ export const countryData = {
     id: '620',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PW: {
@@ -2219,10 +2403,11 @@ export const countryData = {
     id: '585',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   PY: {
@@ -2231,10 +2416,11 @@ export const countryData = {
     id: '600',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   QA: {
@@ -2243,10 +2429,11 @@ export const countryData = {
     id: '634',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 4,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   RE: {
@@ -2255,10 +2442,11 @@ export const countryData = {
     id: '638',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   RO: {
@@ -2267,10 +2455,11 @@ export const countryData = {
     id: '642',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   RS: {
@@ -2279,10 +2468,11 @@ export const countryData = {
     id: '688',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   RU: {
@@ -2291,10 +2481,11 @@ export const countryData = {
     id: '643',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   RW: {
@@ -2303,10 +2494,11 @@ export const countryData = {
     id: '646',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 4,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   SA: {
@@ -2315,10 +2507,11 @@ export const countryData = {
     id: '682',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SB: {
@@ -2327,10 +2520,11 @@ export const countryData = {
     id: '090',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   SC: {
@@ -2339,10 +2533,11 @@ export const countryData = {
     id: '690',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   SD: {
@@ -2351,10 +2546,11 @@ export const countryData = {
     id: '729',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SE: {
@@ -2363,10 +2559,11 @@ export const countryData = {
     id: '752',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SG: {
@@ -2375,10 +2572,11 @@ export const countryData = {
     id: '702',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: ['white-white', 'white-yellow'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SH: {
@@ -2387,10 +2585,11 @@ export const countryData = {
     id: '654',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   SI: {
@@ -2399,10 +2598,11 @@ export const countryData = {
     id: '705',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SJ: {
@@ -2411,10 +2611,11 @@ export const countryData = {
     id: '744',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SK: {
@@ -2423,10 +2624,11 @@ export const countryData = {
     id: '703',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SL: {
@@ -2435,10 +2637,11 @@ export const countryData = {
     id: '694',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SM: {
@@ -2447,10 +2650,11 @@ export const countryData = {
     id: '674',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SN: {
@@ -2459,10 +2663,11 @@ export const countryData = {
     id: '686',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SO: {
@@ -2471,10 +2676,11 @@ export const countryData = {
     id: '706',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   SR: {
@@ -2483,10 +2689,11 @@ export const countryData = {
     id: '740',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SS: {
@@ -2495,10 +2702,11 @@ export const countryData = {
     id: '728',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   ST: {
@@ -2507,10 +2715,11 @@ export const countryData = {
     id: '678',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SV: {
@@ -2519,10 +2728,11 @@ export const countryData = {
     id: '222',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SX: {
@@ -2531,10 +2741,11 @@ export const countryData = {
     id: '534',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SY: {
@@ -2543,10 +2754,11 @@ export const countryData = {
     id: '760',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   SZ: {
@@ -2555,10 +2767,11 @@ export const countryData = {
     id: '748',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   TC: {
@@ -2567,10 +2780,11 @@ export const countryData = {
     id: '796',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TD: {
@@ -2579,22 +2793,24 @@ export const countryData = {
     id: '148',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TF: {
-    name: 'French Southern Territories',
+    name: 'French South Territories',
     iso: 'TF',
     id: '260',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   TG: {
@@ -2603,10 +2819,11 @@ export const countryData = {
     id: '768',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TH: {
@@ -2615,10 +2832,11 @@ export const countryData = {
     id: '764',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TJ: {
@@ -2627,10 +2845,11 @@ export const countryData = {
     id: '762',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TK: {
@@ -2639,10 +2858,11 @@ export const countryData = {
     id: '772',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   TL: {
@@ -2651,10 +2871,11 @@ export const countryData = {
     id: '626',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   TM: {
@@ -2663,10 +2884,11 @@ export const countryData = {
     id: '795',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TN: {
@@ -2675,10 +2897,11 @@ export const countryData = {
     id: '788',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TO: {
@@ -2687,10 +2910,11 @@ export const countryData = {
     id: '776',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   TR: {
@@ -2699,10 +2923,11 @@ export const countryData = {
     id: '792',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TT: {
@@ -2711,10 +2936,11 @@ export const countryData = {
     id: '780',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TV: {
@@ -2723,10 +2949,11 @@ export const countryData = {
     id: '798',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   TW: {
@@ -2735,10 +2962,11 @@ export const countryData = {
     id: '158',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   TZ: {
@@ -2747,10 +2975,11 @@ export const countryData = {
     id: '834',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   UA: {
@@ -2759,10 +2988,11 @@ export const countryData = {
     id: '804',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   UG: {
@@ -2771,10 +3001,11 @@ export const countryData = {
     id: '800',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: ['northern', 'southern'],
+      hemisphere: ['north', 'south'],
     },
   },
   UM: {
@@ -2783,10 +3014,11 @@ export const countryData = {
     id: '581',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   US: {
@@ -2795,10 +3027,11 @@ export const countryData = {
     id: '840',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: [1, 2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'yellow-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   UY: {
@@ -2807,10 +3040,11 @@ export const countryData = {
     id: '858',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   UZ: {
@@ -2819,10 +3053,11 @@ export const countryData = {
     id: '860',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   VA: {
@@ -2831,10 +3066,11 @@ export const countryData = {
     id: '336',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   VC: {
@@ -2843,10 +3079,11 @@ export const countryData = {
     id: '670',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   VE: {
@@ -2855,10 +3092,11 @@ export const countryData = {
     id: '862',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   VG: {
@@ -2867,10 +3105,11 @@ export const countryData = {
     id: '092',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   VI: {
@@ -2879,10 +3118,11 @@ export const countryData = {
     id: '850',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: 3,
       officialCoverage: 'yes',
       roadLines: 'yellow_white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   VN: {
@@ -2891,10 +3131,11 @@ export const countryData = {
     id: '704',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: ['white-white', 'yellow-white'],
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   VU: {
@@ -2903,10 +3144,11 @@ export const countryData = {
     id: '548',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'yes',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   WF: {
@@ -2915,10 +3157,11 @@ export const countryData = {
     id: '876',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   WS: {
@@ -2927,10 +3170,11 @@ export const countryData = {
     id: '882',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
 
@@ -2940,10 +3184,11 @@ export const countryData = {
     id: '887',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'northern',
+      hemisphere: 'north',
     },
   },
   YT: {
@@ -2952,10 +3197,11 @@ export const countryData = {
     id: '175',
     attributes: {
       drivingSide: 'right',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   ZA: {
@@ -2964,10 +3210,11 @@ export const countryData = {
     id: '710',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: [2, 3, 4],
       officialCoverage: 'yes',
       roadLines: 'white-yellow',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   ZM: {
@@ -2976,10 +3223,11 @@ export const countryData = {
     id: '894',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
   ZW: {
@@ -2988,10 +3236,11 @@ export const countryData = {
     id: '716',
     attributes: {
       drivingSide: 'left',
+      carColour: null,
       cameraGen: null,
       officialCoverage: 'no',
       roadLines: 'white-white',
-      hemisphere: 'southern',
+      hemisphere: 'south',
     },
   },
 };

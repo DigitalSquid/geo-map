@@ -7,11 +7,15 @@
 .country-map {
   height: 100%;
   path {
+    transition: 0.2s all ease;
     fill: rgb(233, 221, 221);
     stroke-width: 0.1;
     stroke: rgb(52, 85, 42);
     &.active {
       fill: rgb(163, 207, 150);
+    }
+    &.highlighted {
+      fill: rgb(207, 176, 150);
     }
   }
 }
