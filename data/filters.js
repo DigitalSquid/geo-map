@@ -9,17 +9,18 @@ export const filters = {
     title: 'Driving Side',
     selected: '',
     style: 'toggle',
-    options: ['right', 'left'],
+    options: ['left', 'right'],
+  },
+  hemisphere: {
+    title: 'Hemisphere',
+    selected: '',
+    style: 'toggle',
+    options: ['north', 'south'],
   },
   cameraGen: {
     title: 'Camera Generation',
     selected: '',
     options: [1, 2, 3, 4],
-  },
-  hemisphere: {
-    title: 'Hemisphere',
-    selected: '',
-    options: ['north', 'south'],
   },
   roadLines: {
     title: 'Road Lines',

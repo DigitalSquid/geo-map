@@ -1731,7 +1731,7 @@ export const countryData = {
   LU: {
     name: 'Luxembourg',
     iso: 'LU',
-    id: '',
+    id: '442',
     attributes: {
       drivingSide: 'right',
       carColour: null,
@@ -1744,7 +1744,7 @@ export const countryData = {
   LV: {
     name: 'Latvia',
     iso: 'LV',
-    id: '442',
+    id: '428',
     attributes: {
       drivingSide: 'right',
       carColour: null,
@@ -2235,7 +2235,7 @@ export const countryData = {
     attributes: {
       drivingSide: 'right',
       carColour: null,
-      officialCoverage: 'no',
+      officialCoverage: 'yes',
       cameraGen: null,
       roadLines: 'white-white',
       hemisphere: 'north',
@@ -2470,7 +2470,7 @@ export const countryData = {
       drivingSide: 'right',
       carColour: null,
       cameraGen: 3,
-      officialCoverage: 'no',
+      officialCoverage: 'yes',
       roadLines: 'white-white',
       hemisphere: 'north',
     },

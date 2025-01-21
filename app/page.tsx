@@ -1,25 +1,24 @@
+'use client';
+
 import { useState, useEffect } from 'react';
-import { filters } from './constants/filters';
-import { countryData } from './constants/countryData';
+import { filters } from '@/data/filters';
+import { countryData } from '@/data/countryData';
 
-import Map from './components/map/map';
-import FilterList from './components/filterList/filterList';
-import CountryList from './components/countryList/countryList';
+import Map from '@/app/components/map';
+import FilterList from '@/app/components/filterList';
+import CountryList from '@/app/components/countryList';
 
-import './App.css';
-
-function App() {
-  const [selectedFilters, setSelectedFilters] = useState({ filters });
-  const [filteredCountries, setFilteredCountries] = useState([]);
+export default function Home() {
+  const [selectedFilters, setSelectedFilters] = useState<any>({ filters });
+  const [filteredCountries, setFilteredCountries] = useState<Array<any>>([]);
   const [highlightedCountryId, setHighlightedCountryId] = useState(null);
 
-  function filterCountries(selectedFilters) {
+  function filterCountries(selectedFilters: any) {
     const newFilteredCountries = Object.entries(countryData).filter(
       (country) => {
-        const countryData = country[1];
-        let matchesFilter = [];
-
-        Object.entries(selectedFilters.filters).forEach((entry) => {
+        const countryData: any = country[1];
+        let matchesFilter: Array<any> = [];
+        Object.entries(selectedFilters.filters).forEach((entry: any) => {
           const filterName = entry[0];
           const filterData = entry[1];
 
@@ -30,14 +29,13 @@ function App() {
           const countryFilterData = countryData.attributes[filterName];
           let selectedFilterValue = filterData.selected.toLowerCase();
 
-          function isNumeric(str) {
-            if (typeof str !== 'string') return false;
-            return !isNaN(str) && !isNaN(parseFloat(str));
+          if (typeof selectedFilterValue !== 'string') {
+            selectedFilterValue = Number(selectedFilterValue);
           }
 
-          selectedFilterValue = isNumeric(selectedFilterValue)
-            ? Number(selectedFilterValue)
-            : selectedFilterValue;
+          selectedFilterValue = isNaN(selectedFilterValue)
+            ? selectedFilterValue
+            : Number(selectedFilterValue);
 
           matchesFilter.push(
             Array.isArray(countryFilterData)
@@ -52,15 +50,17 @@ function App() {
     setFilteredCountries(newFilteredCountries);
   }
 
-  function togglePreference(filterName, value) {
-    const newFilters = { ...selectedFilters };
-    newFilters.filters[filterName].selected = value;
+  function togglePreference(filterName: string, value: string) {
+    const newFilters: any = { ...selectedFilters };
+    newFilters.filters[filterName as keyof object].selected = value;
     setSelectedFilters(newFilters);
     filterCountries(newFilters);
   }
 
-  function resetPreference(filterName, value) {
-    if (selectedFilters.filters[filterName].selected !== value) {
+  function resetPreference(filterName: string, value: string) {
+    if (
+      selectedFilters.filters[filterName as keyof object].selected !== value
+    ) {
       return;
     }
     const newFilters = { ...selectedFilters };
@@ -73,7 +73,7 @@ function App() {
   function resetFilters() {
     const newFilters = { ...selectedFilters };
 
-    Object.entries(newFilters.filters).forEach((entry) => {
+    Object.entries(newFilters.filters).forEach((entry: any) => {
       const filterData = entry[1];
       if (filterData.selected !== '') {
         filterData.selected = '';
@@ -84,7 +84,7 @@ function App() {
     filterCountries(newFilters);
   }
 
-  function highlightCountry(countryId) {
+  function highlightCountry(countryId: any) {
     setHighlightedCountryId(
       countryId === highlightedCountryId ? null : countryId
     );
@@ -96,16 +96,23 @@ function App() {
 
   return (
     <div className='App'>
-      <main>
-        <div className='sidebar'>
-          <header className='App-header'>Geo Meta Map</header>
+      <main className='flex flex-wrap h-screen'>
+        <div className='sidebar flex-1 w-1/5 relative'>
+          <header className='p-4 text-xl leading-4 text-center font-semibold'>
+            Geo Meta Map
+          </header>
           <FilterList
             selectedFilters={selectedFilters}
             togglePreference={togglePreference}
             resetPreference={resetPreference}
           />
-          <div className='sidebar-end'>
-            <button onClick={resetFilters}>Reset filters</button>
+          <div className='absolute p-4 bottom-0 w-full text-right '>
+            <button
+              className='bg-secondary-dark px-4 py-2'
+              onClick={resetFilters}
+            >
+              Reset selections
+            </button>
           </div>
         </div>
 
@@ -122,5 +129,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
