@@ -1,28 +1,11 @@
 import { Filter } from '@/app/components/filter';
 
-interface FilterListProps {
-  selectedFilters: Filters;
-  togglePreference: (name: string, value: string) => void;
-  resetPreference: (name: string, value: string) => void;
-}
+import { FilterListType } from '@/app/types';
 
-// Consider moving to types.ts file and import
-// These properties are duplicated across multiple types
-interface Filters {
-  filters: FilterProps;
-}
-
-interface FilterProps {
-  filterTitle: string;
-  selectedValue: string;
-  options: Array<string>;
-  style: string;
-}
-
-function filterList(props: FilterListProps) {
+function FilterList(props: FilterListType) {
   return (
     <aside className='p-4 border-y border-tertiary'>
-      {Object.entries(props.selectedFilters.filters).map((entry, index) => {
+      {Object.entries(props.selectedFilters).map((entry, index) => {
         const filter = entry[1];
         return (
           <Filter
@@ -41,4 +24,4 @@ function filterList(props: FilterListProps) {
   );
 }
 
-export default filterList;
+export default FilterList;
