@@ -11,10 +11,7 @@ const Sidebar = (props: SidebarProps) => {
       </header>
       {props.children}
       <div className='absolute p-4 bottom-0 w-full text-right '>
-        <button
-          className='bg-secondary-dark px-4 py-2'
-          onClick={props.resetFilters}
-        >
+        <button className='bg-grey-dark px-4 py-2' onClick={props.resetFilters}>
           Reset all selections
         </button>
       </div>

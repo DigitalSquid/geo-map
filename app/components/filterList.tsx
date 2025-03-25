@@ -4,7 +4,7 @@ import { FilterListType } from '@/app/types';
 
 function FilterList(props: FilterListType) {
   return (
-    <aside className='p-4 border-y border-tertiary'>
+    <aside className='p-4 border-y border-grey-light'>
       {Object.entries(props.selectedFilters).map((entry, index) => {
         const filter = entry[1];
         return (

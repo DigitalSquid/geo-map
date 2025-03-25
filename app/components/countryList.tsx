@@ -23,7 +23,7 @@ function CountryList(props: CountryListProps) {
           const countryId = country.id;
           const selected_styling =
             props.highlightedCountryId === countryId
-              ? 'font-bold bg-secondary-dark'
+              ? 'font-bold bg-grey-dark'
               : '';
           return (
             <li

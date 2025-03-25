@@ -28,10 +28,10 @@ export function Filter(props: FilterProps) {
     filter_style = 'w-1/2';
     wrapper_style = 'w-1/2';
     label_style =
-      'w-full p-1 peer-checked:bg-primary peer-checked:text-dark-grey';
+      'w-full p-1 peer-checked:bg-white peer-checked:text-dark-grey';
   } else if (props.style === 'options') {
     label_style =
-      'px-3 py-2 w-full peer-checked:bg-primary peer-checked:text-dark-grey';
+      'px-3 py-2 w-full peer-checked:bg-white peer-checked:text-dark-grey';
     wrapper_style = 'w-1/2';
   } else if (props.style === 'icons') {
     wrapper_style = 'w-full justify-between mt-2';
@@ -57,7 +57,7 @@ export function Filter(props: FilterProps) {
                 checked={props.selectedValue === option.toString()}
               />
               <label
-                className={`border border-tertiary inline-block text-center select-none cursor-pointer capitalize text-sm font-semibold  ${label_style} ${props.filterName.toLowerCase()} ${option}`}
+                className={`border border-grey-light inline-block text-center select-none cursor-pointer capitalize text-sm font-semibold  ${label_style} ${props.filterName.toLowerCase()} ${option}`}
                 htmlFor={props.filterName + index}
               >
                 {option}
