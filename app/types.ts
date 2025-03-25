@@ -1,13 +1,16 @@
-export interface FilterProps {
-  filterTitle: string;
-  selected: string | number;
-  selectedValue: string;
-  options: Array<string>;
+interface FilterOption {
+  title: string;
+  selected: string;
   style: string;
+  options: string[];
 }
 
 export interface Filters {
-  [key: symbol]: FilterProps;
+  officialCoverage: FilterOption;
+  drivingSide: FilterOption;
+  hemisphere: FilterOption;
+  cameraGen: FilterOption;
+  roadLines: FilterOption;
 }
 
 export interface FilterListType {
@@ -20,7 +23,7 @@ export interface FilterListType {
 export interface CountryAttributes {
   drivingSide: string;
   carColour: string | null;
-  cameraGen: number | number[] | null;
+  cameraGen: string | string[] | null;
   officialCoverage: string;
   roadLines: string[] | string;
   hemisphere: string[] | string;
@@ -34,5 +37,10 @@ export interface Country {
 }
 
 export interface Countries {
-  [key: string]: Country;
+  [key: string]: {
+    name: string;
+    iso: string;
+    id: string;
+    attributes: CountryAttributes;
+  };
 }

@@ -20,7 +20,8 @@
   "cameraGen": {
     "title": "Camera Generation",
     "selected": "",
-    "options": [1, 2, 3, 4]
+    "style": "",
+    "options": ["one", "two", "three", "four"]
   },
   "roadLines": {
     "title": "Road Lines",

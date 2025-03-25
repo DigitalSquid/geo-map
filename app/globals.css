@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 /* TODO: Re-visit the variable naming convention. Not sure primary, secondary, etc... is good unless we're actually using light/dark mode toggle */
 

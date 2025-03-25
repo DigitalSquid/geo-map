@@ -1,15 +1,15 @@
 import ReactCountryFlag from 'react-country-flag';
 
+import { Countries } from '@/app/types';
+
 interface CountryListProps {
-  filteredCountries: Array<object>;
-  highlightCountry: (id: number) => void;
-  highlightedCountryId: number | null;
+  filteredCountries: Countries;
+  highlightCountry: (id: string) => void;
+  highlightedCountryId: string | null;
 }
 
-// Add country interface
-
 function CountryList(props: CountryListProps) {
-  const handleClick = (countryId: number) => {
+  const handleClick = (countryId: string) => {
     props.highlightCountry(countryId);
   };
 
@@ -17,24 +17,23 @@ function CountryList(props: CountryListProps) {
     <aside className='flex-1 w-1/5 p-4 h-screen overflow-auto'>
       <span className='fi fi-gr'></span>
 
-      <p>{props.filteredCountries.length} Countries</p>
+      <p>{Object.keys(props.filteredCountries).length} Countries</p>
       <ul>
-        {props.filteredCountries.map((country: any, index) => {
-          const countryCode = country[0 as keyof object];
-          const countryId = country[1 as keyof object].id;
+        {Object.values(props.filteredCountries).map((country) => {
+          const countryId = country.id;
           const selected_styling =
             props.highlightedCountryId === countryId
               ? 'font-bold bg-secondary-dark'
               : '';
-
           return (
             <li
-              className={`transition-all cursor-pointer ${selected_styling}`}
-              key={index}
+              key={country.id}
               onClick={() => handleClick(countryId)}
+              className={`transition-all cursor-pointer ${selected_styling}`}
             >
               <ReactCountryFlag
-                countryCode={countryCode}
+                countryCode={country.iso}
+                svg
                 style={{
                   fontSize: '1.25em',
                   lineHeight: '1.25em',
@@ -42,7 +41,7 @@ function CountryList(props: CountryListProps) {
                 }}
                 className='mr-2'
               />
-              {country[1].name}
+              {country.name}
             </li>
           );
         })}

@@ -8,9 +8,11 @@ import {
 
 import topoJson from '@/data/countries-50m.json';
 
+import { Countries } from '@/app/types';
+
 interface MapProps {
-  filteredCountries: Array<object>;
-  highlightedCountryId: number | null;
+  filteredCountries: Countries;
+  highlightedCountryId: string | null;
 }
 
 const Map = (props: MapProps) => {
@@ -21,10 +23,9 @@ const Map = (props: MapProps) => {
           <Geographies geography={topoJson}>
             {({ geographies }) =>
               geographies.map((geo) => {
-                // TODO: Fix any types
-                const filteredCountry = props.filteredCountries.find(
-                  (country: any) => country[1 as keyof object].id === geo.id
-                );
+                const filteredCountry = Object.values(
+                  props.filteredCountries
+                ).find((country) => country.id === geo.id);
                 const is_active = filteredCountry
                   ? 'fill-lime-green'
                   : 'fill-off-white';
@@ -44,7 +45,7 @@ const Map = (props: MapProps) => {
             }
           </Geographies>
           <Line
-            className='[stroke-dasharray:1] [stroke-width:0.5] stroke-bright-orange fill-none'
+            className='[stroke-dasharray:1] [stroke-width:0.5] stroke-gray-500 fill-none'
             coordinates={[
               [-180, 0],
               [-90, 0],

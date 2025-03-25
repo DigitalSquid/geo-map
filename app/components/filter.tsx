@@ -1,4 +1,4 @@
-interface CountryListProps {
+interface FilterProps {
   key: number;
   filterTitle: string;
   filterName: string;
@@ -9,7 +9,7 @@ interface CountryListProps {
   style: string;
 }
 
-export function Filter(props: CountryListProps) {
+export function Filter(props: FilterProps) {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     props.togglePreference(e.currentTarget.name, e.currentTarget.value);
   };

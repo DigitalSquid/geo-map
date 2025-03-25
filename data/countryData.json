@@ -6,7 +6,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3],
+      "cameraGen": ["two", "three"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -19,7 +19,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "north"
@@ -71,7 +71,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white"],
       "hemisphere": "north"
@@ -123,7 +123,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "white-yellow", "yellow_white-white"],
       "hemisphere": "south"
@@ -136,7 +136,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "south"
@@ -149,7 +149,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -162,7 +162,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-yellow"],
       "hemisphere": "south"
@@ -240,7 +240,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -253,7 +253,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -279,7 +279,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -344,7 +344,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -370,7 +370,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white"],
       "hemisphere": "south"
@@ -396,7 +396,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": ["north", "south"]
@@ -422,7 +422,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -448,7 +448,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "south"
@@ -487,7 +487,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -500,7 +500,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -552,7 +552,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -591,7 +591,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white"],
       "hemisphere": "south"
@@ -630,7 +630,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": ["north", "south"]
@@ -682,7 +682,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -695,7 +695,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "south"
@@ -721,7 +721,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -734,7 +734,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -760,7 +760,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -786,7 +786,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -812,7 +812,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": ["north", "south"]
@@ -825,7 +825,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -877,7 +877,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -903,7 +903,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white"],
       "hemisphere": "north"
@@ -955,7 +955,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -968,7 +968,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -994,7 +994,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "white-yellow"],
       "hemisphere": "north"
@@ -1059,7 +1059,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1072,7 +1072,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": ["white-white", "white-yellow"],
       "hemisphere": "north"
@@ -1085,7 +1085,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1150,7 +1150,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1176,7 +1176,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -1189,7 +1189,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "no",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -1228,7 +1228,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1267,7 +1267,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1293,7 +1293,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1306,7 +1306,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white"],
       "hemisphere": ["north", "south"]
@@ -1319,7 +1319,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "north"
@@ -1332,7 +1332,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3],
+      "cameraGen": ["two", "three"],
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "north"
@@ -1345,7 +1345,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 2,
+      "cameraGen": "two",
       "officialCoverage": "yes",
       "roadLines": ["white-white", "white-yellow"],
       "hemisphere": "north"
@@ -1358,7 +1358,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1410,7 +1410,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1423,7 +1423,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1436,7 +1436,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 2,
+      "cameraGen": "two",
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "north"
@@ -1462,7 +1462,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "north"
@@ -1475,7 +1475,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1488,7 +1488,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": ["north", "south"]
@@ -1501,7 +1501,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1514,7 +1514,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -1579,7 +1579,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3],
+      "cameraGen": ["two", "three"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -1631,7 +1631,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1683,7 +1683,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1709,7 +1709,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "south"
@@ -1722,7 +1722,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1735,7 +1735,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1748,7 +1748,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1787,7 +1787,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [1, 2, 3],
+      "cameraGen": ["one", "two", "three"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1813,7 +1813,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1865,7 +1865,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-yellow"],
       "hemisphere": "north"
@@ -1904,7 +1904,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1917,7 +1917,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 2,
+      "cameraGen": "two",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -1930,22 +1930,9 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
-      "hemisphere": "north"
-    }
-  },
-  "MQ": {
-    "name": "Martinique",
-    "iso": "MQ",
-    "id": "580",
-    "attributes": {
-      "drivingSide": "right",
-      "carColour": null,
-      "cameraGen": null,
-      "officialCoverage": "yes",
-      "roadLines": "white-white",
       "hemisphere": "north"
     }
   },
@@ -1982,7 +1969,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2034,7 +2021,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -2047,7 +2034,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2125,7 +2112,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "north"
@@ -2151,7 +2138,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2164,7 +2151,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -2216,7 +2203,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": [
         "white-white",
@@ -2261,7 +2248,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white"],
       "hemisphere": "south"
@@ -2283,7 +2270,7 @@
   "PG": {
     "name": "Papua New Guinea",
     "iso": "PG",
-    "id": "324",
+    "id": "598",
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
@@ -2300,7 +2287,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white", "yellow_white-white"],
       "hemisphere": "north"
@@ -2326,7 +2313,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2365,7 +2352,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -2391,7 +2378,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2430,7 +2417,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 4,
+      "cameraGen": "four",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2456,7 +2443,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2469,7 +2456,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2482,7 +2469,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2495,7 +2482,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 4,
+      "cameraGen": "four",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "south"
@@ -2560,7 +2547,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2573,7 +2560,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": ["white-white", "white-yellow"],
       "hemisphere": "north"
@@ -2599,7 +2586,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2625,7 +2612,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2651,7 +2638,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3],
+      "cameraGen": ["two", "three"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2664,7 +2651,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2768,7 +2755,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "south"
@@ -2833,7 +2820,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -2898,7 +2885,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2924,7 +2911,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [3, 4],
+      "cameraGen": ["three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -2963,7 +2950,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -2989,7 +2976,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "north"
@@ -3002,7 +2989,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": ["white-white", "yellow-white"],
       "hemisphere": ["north", "south"]
@@ -3028,7 +3015,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": [1, 2, 3, 4],
+      "cameraGen": ["one", "two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "yellow-white",
       "hemisphere": "north"
@@ -3041,7 +3028,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "white-white",
       "hemisphere": "south"
@@ -3119,7 +3106,7 @@
     "attributes": {
       "drivingSide": "right",
       "carColour": null,
-      "cameraGen": 3,
+      "cameraGen": "three",
       "officialCoverage": "yes",
       "roadLines": "yellow_white-white",
       "hemisphere": "north"
@@ -3210,7 +3197,7 @@
     "attributes": {
       "drivingSide": "left",
       "carColour": null,
-      "cameraGen": [2, 3, 4],
+      "cameraGen": ["two", "three", "four"],
       "officialCoverage": "yes",
       "roadLines": "white-yellow",
       "hemisphere": "south"

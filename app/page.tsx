@@ -9,23 +9,22 @@ import Map from '@/app/components/map';
 import FilterList from '@/app/components/filterList';
 import CountryList from '@/app/components/countryList';
 
-import { Country, CountryAttributes, Filters } from '@/app/types';
+import { CountryAttributes, Countries, Filters } from '@/app/types';
 
 export default function Home() {
-  const [selectedFilters, setSelectedFilters] =
-    useState<Filters>(filterOptions);
-  const [filteredCountries, setFilteredCountries] = useState<Array<object>>([]);
-  const [highlightedCountryId, setHighlightedCountryId] = useState(null);
+  const [selectedFilters, setSelectedFilters] = useState(filterOptions);
+  const [filteredCountries, setFilteredCountries] = useState<Countries>({});
+  const [highlightedCountryId, setHighlightedCountryId] = useState<
+    string | null
+  >(null);
 
   function filterCountries(selectedFilters: Filters) {
-    // TODO: is the right way to do it? Could we copy the object and reduce, or have the country identifiers in a seperate array?
+    const newFilteredCountries = Object.fromEntries(
+      Object.entries(countryData).filter((country) => {
+        const countryData = country[1];
+        const matchesFilter: Array<boolean> = [];
 
-    const newFilteredCountries = Object.entries(countryData).filter(
-      (country) => {
-        // console.log(country);
-        const countryData: Country = country[1];
-        let matchesFilter: Array<any> = [];
-        Object.entries(selectedFilters).forEach((entry: any) => {
+        Object.entries(selectedFilters).forEach((entry) => {
           const filterName = entry[0];
           const filterData = entry[1];
 
@@ -35,15 +34,7 @@ export default function Home() {
 
           const countryFilterData =
             countryData.attributes[filterName as keyof CountryAttributes];
-          let selectedFilterValue = filterData.selected.toLowerCase();
-
-          if (typeof selectedFilterValue !== 'string') {
-            selectedFilterValue = Number(selectedFilterValue);
-          }
-
-          selectedFilterValue = isNaN(selectedFilterValue)
-            ? selectedFilterValue
-            : Number(selectedFilterValue);
+          const selectedFilterValue = filterData.selected.toLowerCase();
 
           matchesFilter.push(
             Array.isArray(countryFilterData)
@@ -51,29 +42,30 @@ export default function Home() {
               : countryFilterData === selectedFilterValue
           );
         });
-        console.log(matchesFilter);
-        return !matchesFilter.includes(false);
-      }
+
+        return matchesFilter.every((match) => match);
+      })
     );
+
     setFilteredCountries(newFilteredCountries);
   }
 
   function togglePreference(filterName: string, value: string) {
     const newFilters: Filters = { ...selectedFilters };
-    newFilters[filterName as keyof object]['selected'] = value;
+    newFilters[filterName as keyof Filters].selected = value;
     setSelectedFilters(newFilters);
     filterCountries(newFilters);
   }
 
   function resetPreference(filterName: string, value: string) {
-    if (selectedFilters[filterName as keyof object]['selected'] !== value) {
+    if (selectedFilters[filterName as keyof Filters]['selected'] !== value) {
       return;
     }
 
-    let newFilters = { ...selectedFilters };
+    const newFilters = JSON.parse(JSON.stringify(selectedFilters));
 
-    newFilters[filterName as keyof object]['selected'] =
-      newFilters[filterName as keyof object].selected === value ? '' : value;
+    newFilters[filterName]['selected'] =
+      newFilters[filterName].selected === value ? '' : value;
 
     setSelectedFilters(newFilters);
     filterCountries(newFilters);
@@ -82,8 +74,8 @@ export default function Home() {
   function resetFilters() {
     const newFilters = { ...selectedFilters };
 
-    Object.entries(newFilters).forEach((entry: any) => {
-      const filterData = entry[1];
+    Object.entries(newFilters).forEach(([_, filterData]) => {
+      console.log(_, filterData);
       if (filterData.selected !== '') {
         filterData.selected = '';
       }
@@ -93,7 +85,7 @@ export default function Home() {
     filterCountries(newFilters);
   }
 
-  function highlightCountry(countryId: any) {
+  function highlightCountry(countryId: string) {
     setHighlightedCountryId(
       countryId === highlightedCountryId ? null : countryId
     );
