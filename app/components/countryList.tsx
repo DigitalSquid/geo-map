@@ -14,7 +14,7 @@ function CountryList(props: CountryListProps) {
   };
 
   return (
-    <aside className='flex-1 w-1/5 p-4 h-screen overflow-auto'>
+    <aside className='flex-1 p-4 h-screen overflow-auto'>
       <span className='fi fi-gr'></span>
 
       <p>{Object.keys(props.filteredCountries).length} Countries</p>

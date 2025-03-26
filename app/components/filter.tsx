@@ -26,13 +26,13 @@ export function Filter(props: FilterProps) {
   // Switch statement giving incorrect results so we're doing this instead
   if (props.style === 'toggle') {
     filter_style = 'w-1/2';
-    wrapper_style = 'w-1/2';
+    wrapper_style = 'w-1/2 justify-end';
     label_style =
       'w-full p-1 peer-checked:bg-white peer-checked:text-dark-grey';
   } else if (props.style === 'options') {
     label_style =
       'px-3 py-2 w-full peer-checked:bg-white peer-checked:text-dark-grey';
-    wrapper_style = 'w-1/2';
+    wrapper_style = 'w-1/2 justify-end';
   } else if (props.style === 'icons') {
     wrapper_style = 'w-full justify-between mt-2';
     label_style =
@@ -42,8 +42,15 @@ export function Filter(props: FilterProps) {
   return (
     <div className={`flex flex-wrap mt-4 first:mt-0 ${props.style}`}>
       <p className='mt-1 leading-6 grow font-semibold'>{props.filterTitle}</p>
-      <div className={`flex flex-wrap justify-end ${wrapper_style}`}>
+      <div className={`flex flex-wrap ${wrapper_style}`}>
         {props.options.map((option, index) => {
+          const numbers: Record<string, number> = {
+            one: 1,
+            two: 2,
+            three: 3,
+            four: 4,
+          };
+          const option_text = numbers[option] ?? option;
           return (
             <div className={filter_style} key={index}>
               <input
@@ -60,7 +67,7 @@ export function Filter(props: FilterProps) {
                 className={`border border-grey-light inline-block text-center select-none cursor-pointer capitalize text-sm font-semibold  ${label_style} ${props.filterName.toLowerCase()} ${option}`}
                 htmlFor={props.filterName + index}
               >
-                {option}
+                {option_text}
               </label>
             </div>
           );

@@ -16,6 +16,12 @@
   --color-bright-orange: rgb(255, 163, 87);
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   color: #fff;
   background: var(--color-grey);

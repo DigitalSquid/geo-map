@@ -17,8 +17,8 @@ interface MapProps {
 
 const Map = (props: MapProps) => {
   return (
-    <div className='flex-5 w-3/5 overflow-hidden bg-sea-blue'>
-      <ComposableMap projection='geoMercator' className='h-full'>
+    <div className='flex-4 overflow-hidden bg-sea-blue'>
+      <ComposableMap projection='geoMercator' className='h-screen'>
         <ZoomableGroup center={[0, 0]} zoom={1}>
           <Geographies geography={topoJson}>
             {({ geographies }) =>

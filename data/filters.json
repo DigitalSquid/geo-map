@@ -18,9 +18,9 @@
     "options": ["north", "south"]
   },
   "cameraGen": {
-    "title": "Camera Generation",
+    "title": "Camera Gen",
     "selected": "",
-    "style": "",
+    "style": "options",
     "options": ["one", "two", "three", "four"]
   },
   "roadLines": {
